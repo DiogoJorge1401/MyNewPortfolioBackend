@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "strict": false,
+    "allowJs": true,
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "removeComments": true,
+    "strictNullChecks": false,
+    "strictFunctionTypes": false,
+    "strictPropertyInitialization": false,
+    "strictBindCallApply": true,
+    "noImplicitThis": false,
+    "noImplicitReturns": true,
+    "alwaysStrict": false,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "emitDecoratorMetadata": true,
+    "target": "ES2021",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "outDir": "dist",
+    "baseUrl": "src",
+    "rootDir": ".",
+    "resolveJsonModule": true,
+    "typeRoots": [
+      "./node_modules/@types",
+      "./src/@types"
+    ],
+  }
+}
